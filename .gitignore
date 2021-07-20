@@ -127,3 +127,6 @@ nb-configuration.xml
 
 # Upload Images by users
 writable/upload/covers/*
+
+# Symbolic link
+
