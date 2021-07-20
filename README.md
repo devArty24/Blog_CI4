@@ -58,3 +58,24 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 ## Installation
 
 once the project is downloaded, first change the name of the env file to `.env`
+
+In `CI ENVIRONMENT` change from production to development and vice versa for when you do the deployment
+```
+CI_ENVIRONMENT = development
+```
+Write the global url that you will occupy for the whole project this in the file `.env` in:
+```
+app.baseUrl = 'your_url'
+```
+On `app/Config/Database.php` write your accesses and the name of the DB. This is important since here the name of the database is indicated where the migrations will run and the insertions will be made and others
+```
+/* Look for these variables and modify them to your needs */
+'hostname' => 'localhost',
+'username' => 'root',
+'password' => '',
+'database' => 'nameYourDataBase',
+```
+Now run the migrations, in the command console, position yourself at the root of the project and run the command:
+```
+>php spark migrate
+```
