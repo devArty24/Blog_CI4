@@ -79,3 +79,19 @@ Now run the migrations, in the command console, position yourself at the root of
 ```
 >php spark migrate
 ```
+To download and install the packages configured in the composer.json file run `>composer install`
+
+Since there are the tables created by the migrations, now it executes the main seeder when executing it, two more seeders will be executed, one for countries and another for groups
+On your console run:
+```
+>php spark db:seed InitSeeder
+```
+Finally, this project has image uploads so these are stored for security in the `writable` folder, which is a folder without permissions for the end user. Then you must generate a `symbolic link` to make these images public
+Open cmd as administrator and run the command:
+```
+/* Example */
+>mklink /D C:\\xampp\htdocs\Blog_CI4-master\public\covers C:\\xampp\htdocs\Blog_CI4-master\writable\uploads\covers
+```
+This command does not matter if you run it inside the root folder. The important thing is to place the `absolute paths` of your project the `first` is the path where the symbolic link will be created and the `second` is the `source path`
+
+This project was created using `xampp` and` windows 10`.

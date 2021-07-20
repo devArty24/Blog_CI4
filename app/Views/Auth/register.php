@@ -60,14 +60,14 @@
                 <div class="field">
                     <label class="label">Contraseña</label>
                     <div class="control">
-                        <input class="input" name="password" type="text" placeholder="Text input">
+                        <input class="input" name="password" type="password" placeholder="Text input">
                     </div>
                     <p class="is-danger help"><?= session('errors.password')?></p>
                 </div>
                 <div class="field">
-                    <label class="label">Confirmacion de ontraseña</label>
+                    <label class="label">Confirmacion de contraseña</label>
                     <div class="control">
-                        <input class="input" name="c-password" type="text" placeholder="Text input">
+                        <input class="input" name="c-password" type="password" placeholder="Text input">
                     </div>
                 </div>
 

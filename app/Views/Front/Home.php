@@ -57,7 +57,7 @@
 
         <!-- Section recommendations groups by category -->
         <section class="section">
-            <h1>Articulos de php</h1>
+            <h1>Articulos Recomendados</h1>
 
             <!-- Used a view cells of CI4 -->
             <!-- View cells it would be the equivalent to component of Angular for example  -->
