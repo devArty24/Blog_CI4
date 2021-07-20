@@ -57,4 +57,4 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 ## Installation
 
-
+once the project is downloaded, first change the name of the env file to `.env`
