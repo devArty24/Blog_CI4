@@ -129,4 +129,4 @@ nb-configuration.xml
 writable/upload/covers/*
 
 # Symbolic link
-
+public/covers
