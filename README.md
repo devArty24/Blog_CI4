@@ -55,6 +55,25 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 - [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
 - xml (enabled by default - don't turn it off)
 
+## Key Features
+
+1. PHP Version 7.3.21
+2. Codeigniter 4
+3. Bulma (css)
+4. Migrations
+5. Seeders
+6. Library [Faker](https://github.com/fzaninotto/Faker)
+7. Entities
+8. Files config custom
+9. Callbacks models
+10. Fontawesome (CDN)
+11. Session php
+12. Filters
+13. Pagination
+14. Library [hashids](https://github.com/vinkla/hashids)
+15. Library [TinyMCE](https://cdnjs.com/libraries/tinymce) editor text (CDN)
+16. View Cells CI4
+
 ## Installation
 
 Once the project is downloaded, first change the name of the env file to `.env`
@@ -95,3 +114,5 @@ Open cmd as administrator and run the command:
 This command does not matter if you run it inside the root folder. The important thing is to place the `absolute paths` of your project the `first` is the path where the symbolic link will be created and the `second` is the `source path`
 
 This project was created using `xampp` and` windows 10`.
+
+If you want update project, use the comand in your console `composer update` in root folder project
